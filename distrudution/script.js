@@ -56,14 +56,14 @@ t1.from(".page1-content h1 span",{
 })
 
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
-  spaceBetween: 1,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
+// var swiper = new Swiper(".mySwiper", {
+//   slidesPerView: 4,
+//   spaceBetween: 1,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+// });
 
 
 
