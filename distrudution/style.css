@@ -487,7 +487,7 @@ nav .option {
 }
 
 .card-btn{
-  /* margin-top: 40px; */
+  margin-top: 40px;
   text-align: end;
 }
 
@@ -513,6 +513,8 @@ nav .option {
 }
 
 
-.page6{
-
+.page7{
+  width: 100%;
+  height: 150vh;
 }
+
