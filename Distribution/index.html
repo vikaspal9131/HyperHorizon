@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="responsive.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
 
@@ -16,9 +17,12 @@
 <body>
 
  <div id="loader">
+  <div class="loader-content">
+
     <h3> Welcome</h3>
     <h3>TO,</h3>
     <h3>HyperHorizon <i class="ri-swap-2-line"></i></h3>
+  </div>
   </div>
 
   <div class="last-page">
@@ -29,16 +33,12 @@
 
   <div id="main">
 
-       <!-- hideing page start -->
-  <div class="hide-page">
-  </div>
-  <!-- hiding page end -->
 
     <!-- page1 start  -->
 
     <div id="page1">
       <div class="cursor">
-        <i class="ri-virus-line"></i>
+       
         <p> cursor</p>
       </div>
 
@@ -53,11 +53,49 @@
             <a href="#">Lock In Your Booking<span>
                 <i class="ri-arrow-right-down-line"></i></a>
             </span>
+          
             <button>MANU <i class="ri-list-unordered"></i></button>
+            
           </div>
+          
         </nav>
-
+        
         <div class="hero-section">
+                     
+                  <div class="full">
+                    <div class="full-icon">
+                       <div class="user">
+                        <i class="ri-user-line"></i>
+                        <div class="user-name">
+                          <a href="register.html"> Sing UP</a>
+                        </div>
+                       </div>
+
+                      <div class="cross">
+                        <i class="ri-close-large-line"></i>
+                      </div>
+                   </div>
+                    <h2>Home</h2>
+                    <h2>service</h2>
+                    <h2>vehical</h2>
+                    <h2>contact</h2>
+        
+                    <h2>about us</h2>
+
+                    <div class="full-option">
+                      <div>
+                        <h5> <i class="ri-facebook-circle-fill"></i>facebook</h5>
+                        <h5> <i class="ri-youtube-line"></i>Youtube</h5>
+                      </div>
+                      <div>
+                        <h5> <i class="ri-instagram-line"></i>Instagram</h5>
+                        <h5> <i class="ri-twitter-x-fill"></i>Twitter</h5>
+                      </div>
+                     
+                    </div>
+                  </div>
+
+
 
 
           <div class="sub-headings">
@@ -67,7 +105,7 @@
             <button>Read more</button>
             <button>Go and book</button>
 
-            <button><i class="ri-planet-line"></i></button>
+            <button><i class="ri-car-line"></i></button>
 
           </div>
 
@@ -195,32 +233,33 @@
         <div id="elem1" class="elem"
             data-image="https://images.unsplash.com/photo-1701001308648-7b731a52b8d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D">
             <div class="overlay"></div>
-            <h2>One hour unlimited traveling</h2>
+            <h2> Exclusive Member-Only Offers</h2>
         </div>
+        
         <div class="elem"
             data-image="https://images.unsplash.com/photo-1700975928909-da4a46227a47?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8">
             <div class="overlay"></div>
-            <h2>Free for one day only </h2>
+            <h2> Discounted Flight and Hotel Packages </h2>
         </div>
         <div class="elem"
             data-image="https://images.unsplash.com/photo-1701077137611-9be394bf62f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMHx8fGVufDB8fHx8fA%3D%3D">
             <div class="overlay"></div>
-            <h2>15 Days pass</h2>
+            <h2>Free Upgrades on Rescheduled Trips</h2>
         </div>
         <div class="elem"
             data-image="https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D">
             <div class="overlay"></div>
-            <h2>One month subsciption</h2>
+            <h2>One-Month Subscription Plan</h2>
         </div>
         <div class="elem"
             data-image="https://images.unsplash.com/photo-1700924546093-f914fd5b8814?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8fA%3D%3D">
             <div class="overlay"></div>
-            <h2>Vehicle for hole day</h2>
+            <h2>Flexible Travel Credits</h2>
         </div>
         <div class="elem"
             data-image="https://images.unsplash.com/photo-1700601437860-e66da79cf6d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1OXx8fGVufDB8fHx8fA%3D%3D">
             <div class="overlay"></div>
-            <h2>book for only travel</h2>
+            <h2> Free Upgrades on Rescheduled Trips</h2>
         </div>
        
     </div>
@@ -229,7 +268,7 @@
   <!-- page6 end -->
 
   <!-- page5 star  -->
-    <div class="page5">
+    <div class="page5" >
       <div class="page5-left">
         <div class="page5-left-content">
           <div class="head-page5">
@@ -266,7 +305,7 @@
                 <input type="date" name="date" id="calendar" value="2024-05-18">
               </div>
 
-              <div>
+              <div class="time">
                 <p>Time</p>
                 <input type="time" name="time" id="time" value="14:30">
               </div>
@@ -293,11 +332,11 @@
               </div>
               <div class="form__group field">
                 <input type="input" class="form__field" placeholder="Gathering site" required="">
-                <label for="name" class="form__label">Number of Person</label>
+                <label for="name" class="form__label">Types vehical</label>
               </div>
               <div class="page5-gen">
 
-                <h2>Sex :</h2>
+                <h5>Gender</h5>
                 <label class="radio-button">
                   <input type="radio" name="example-radio" value="option1">
                   <span class="radio"></span>
@@ -316,7 +355,7 @@
                 </label>
               </div>
               <div class="total-price">
-                <h2>Total 199.Rs</h2>
+                <!-- <h2>Total 199.Rs</h2> -->
               </div>
               <button class="animated-button">
                 <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
@@ -348,7 +387,7 @@
           </h1>
         </div>
         <div class="page7-bottom">
-          <h1> Welcome to HyperHorizon! We're all about changing how you get around  Our goal is  simple:we want to make traveling easier and more fun for everyone  Whether you're going to work, taking a trip across the country, or just exploring a new place, we're here to help make your journey smooth and awesome. </h1>
+          <h1> Welcome to HyperHorizon! we want to make traveling easier and more fun for everyone  Whether you're going to work, taking a trip across the country, or just exploring a new place, we're here to help make your journey smooth and awesome. </h1>
         </div>
       </div>
       <div class="page7-right">
@@ -357,6 +396,10 @@
     </div>
   <!-- about page end -->
 
+  <!-- hideing page start -->
+  <div class="hide-page">
+  </div>
+  <!-- hiding page end -->
 
   
   <!-- footer start ## -->
@@ -405,7 +448,7 @@
 
       <div class="footer-part2">
         <h1>HyperHorizon</h1>
-        <p> ©2024 TEAM YURA. All rights reserved.</p>
+        <p> ©2024 TEAM YURA (BIT Sindri). All rights reserved. BIT Sindri</p>
       </div>
     </div>
   <!-- footer end -->

@@ -1,0 +1,59 @@
+
+
+@media  (max-width: 1024px) {
+  body{
+    overflow: hidden;
+  }
+
+  .main{
+    overflow:hidden;
+  }
+
+  .cursor{
+    font-size: 1vw;
+  }
+
+  .option a {
+    font-size: 1.2vw;
+  }
+
+  .page5{
+    height: 140vh;
+  }
+  
+  .page5-left{
+    margin-top: 100px;
+  }
+
+  .page5-right{
+    margin-top: 100px;
+  }
+
+  .page5-left-btn i{
+    font-size: 3vw;
+    margin-top: 2vw;
+    margin-right: 1vw;
+  }
+  
+  .time-content .time{
+    margin-left: 4vw;
+  }
+
+  .page7-bottom h1{
+    width: 50vw;
+    font-size: 2.7vw;
+  }
+
+  .page7-right{
+    width: 40vw;
+  }
+
+  .user-name{
+    margin-top: 24px;
+  }
+
+  
+  
+
+}
+

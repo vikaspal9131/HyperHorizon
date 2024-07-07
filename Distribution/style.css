@@ -47,15 +47,19 @@ body::-webkit-scrollbar {
   position: relative;
   z-index: 10;
 }
-.page{
-  
-}
+
 #page1{
   height: 100vh;
   width: 100% ;
   background-color: #f5e4e4;
   cursor: none;
   color: black;
+}
+
+.loader-content{
+  width: 25vw;
+  display: flex;
+  justify-content: center;
 }
 
 .cursor{
@@ -129,6 +133,86 @@ nav .option {
  
 }
 
+.full{
+  height:100%;
+  width: 40%;
+  background-color: #FF5F38;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+
+
+.full h2{
+  font-size: 5vw;
+  font-family: NB;
+  margin-left: 50px;
+  color: #2c2b2b;
+}
+
+.full h2:hover{
+  color: black;
+  border-bottom:1px solid black ;
+}
+.full-icon {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+}
+
+.full-icon i{
+  font-size: 2vw;
+  
+}
+.full-icon .user{ 
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 40px;
+  font-family: NB;
+}
+.user-name{
+  margin-top: 14px;
+  margin-left: 4px;
+  
+}
+.user-name a {
+  text-decoration: none;
+  color: black;
+}
+.user i{
+  margin-top: 22%;
+  display: flex;
+  justify-content: center;
+}
+
+.full-option{
+  width: 50%;
+  height: 20vh;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.full-option h5{
+  font-size: 1.2vw;
+  font-family: NB ;
+  font-weight: 300;
+  }
+  .full-option i{
+    margin-right: 4px;
+  }
+
 .option button{
    padding: 1vw 1vw;
    border-radius: 60px;
@@ -148,11 +232,9 @@ nav .option {
   justify-content: space-around;
   text-decoration: none;
   font-size: 1.1rem;
-  /* border: 2px solid white;   */
   border-radius: 100px;
   color: black;
   background-color: white;
-  /* cursor: none; */
 }
 
 
@@ -351,7 +433,6 @@ nav .option {
   white-space: nowrap;
   overflow-x: auto;
   transform: rotate(2deg)
- 
 }
 
 .moving-text2{
@@ -378,7 +459,6 @@ nav .option {
   animation-iteration-count: infinite;
   background-color: #F7BD14;
   color: #000000;
-
 }
 .con2{
   margin-top: 10px;
@@ -617,7 +697,7 @@ nav .option {
   display: block;
   transition: 0.2s;
   font-size: 17px;
-  color: #ef9338;
+  color: #b1875c;
   font-weight: 700;
 }
 
@@ -860,7 +940,7 @@ nav .option {
   margin-bottom: 3vw;
 }
 .page7-bottom h1{
-  font-family: nb;
+  font-family: NB;
   font-size: 2.6vw;
   font-weight: 100; 
 }

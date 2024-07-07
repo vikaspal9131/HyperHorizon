@@ -24,11 +24,11 @@ function cursorEffect(){
     })
   })
   }
-
 cursorEffect();
 
-var t1 = gsap.timeline()
 
+function animation(){  
+var t1 = gsap.timeline()
 t1.from("#loader h3",{
   x:200,
   opacity:0,
@@ -69,6 +69,51 @@ t1.from(".sub-headings button",{
   duration:0.3,
   stagger:0.2
 })
+
+}
+animation()
+
+var manu = document.querySelector(".page1-content nav button")
+var cross = document.querySelector(".cross i")
+
+
+var manutl = gsap.timeline()
+manutl.to(".full",{
+  right:-40,
+  duration:0.3
+})
+
+manutl.from(".full h2" , {
+  x:700,
+  duration:0.3,
+  stagger:0.2,
+})
+
+
+
+manutl.from(".full-option h5",{
+  y:200,
+  duration:0.3,
+  stagger:0.1
+})
+
+
+manutl.pause()
+
+
+
+manu.addEventListener("click",function(){
+   manutl.play()
+})
+
+
+cross.addEventListener("click",function(){
+     manutl.reverse(".full")
+  })
+   
+      
+
+
 
 // for time 
 window.onload = function() {
